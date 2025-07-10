@@ -1,4 +1,4 @@
-# Insta-Profile Jetpack
+# Insta-Profile screen Jetpack
 
 An Android application showcasing an Instagram-like profile screen, built using Jetpack Compose.
 
@@ -17,7 +17,6 @@ An Android application showcasing an Instagram-like profile screen, built using 
 
 * [Kotlin](https://kotlinlang.org/)
 * [Jetpack Compose](https://developer.android.com/jetpack/compose)
-* [Other libraries - e.g., Coil for image loading]
 
 ## Setup/Installation
 
@@ -25,7 +24,7 @@ An Android application showcasing an Instagram-like profile screen, built using 
 2. Open the project in Android Studio.
 3. Build and run the application on an Android device or emulator.
 
-## How to Contribute (Optional)
+## How to Contribute
 
 If you'd like to contribute, please follow these steps:
 
