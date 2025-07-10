@@ -11,7 +11,7 @@ An Android application showcasing an Instagram-like profile screen, built using 
 
 ## APK file
 
-[Click here to download APK file](readmeResources/app-insta-profile-screen-debug.apk)
+[Click here to download APK file](readmeResources/)
 
 ## Screenshots
 
