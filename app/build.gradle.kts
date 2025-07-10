@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.bharath.mpooketjetpack"
+    namespace = "com.bharath.mpokketjetpack"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.bharath.mpooketjetpack"
+        applicationId = "com.bharath.mpokketjetpack"
         minSdk = 29
         targetSdk = 36
         versionCode = 1

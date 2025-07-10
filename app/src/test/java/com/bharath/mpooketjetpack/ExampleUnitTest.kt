@@ -1,4 +1,4 @@
-package com.bharath.mpooketjetpack
+package com.bharath.mpokketjetpack
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.bharath.mpooketjetpack.ui.theme
+package com.bharath.mpokketjetpack.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -34,7 +34,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun MPooketJetpackTheme(
+fun MPokketJetpackTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

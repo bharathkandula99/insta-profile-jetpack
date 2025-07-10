@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "mPooketJetpack"
+rootProject.name = "mpokketJetpack"
 include(":app")
  

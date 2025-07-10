@@ -9,9 +9,13 @@ An Android application showcasing an Instagram-like profile screen, built using 
     * Show a grid of user posts
     * Modern UI built with Jetpack Compose
 
+## APK file
+
+[Click here to download APK file](readmeResources/app-insta-profile-screen-debug.apk)
+
 ## Screenshots
 
-  ![App Screenshot 1](screenshots/insta_profile_screen.png)
+![App Screenshot 1](readmeResources/insta_profile_screen.png)
 
 ## Technologies Used
 

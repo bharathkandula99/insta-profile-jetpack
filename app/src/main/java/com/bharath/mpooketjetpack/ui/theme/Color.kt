@@ -1,4 +1,4 @@
-package com.bharath.mpooketjetpack.ui.theme
+package com.bharath.mpokketjetpack.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

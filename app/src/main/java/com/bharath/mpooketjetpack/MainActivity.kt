@@ -1,4 +1,4 @@
-package com.bharath.mpooketjetpack
+package com.bharath.mpokketjetpack
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -56,14 +56,14 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.bharath.mpooketjetpack.ui.theme.MPooketJetpackTheme
+import com.bharath.mpokketjetpack.ui.theme.MPokketJetpackTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            MPooketJetpackTheme {
+            MPokketJetpackTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Profile(innerPadding)
 
