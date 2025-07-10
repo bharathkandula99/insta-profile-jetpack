@@ -73,13 +73,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-
-data class ImageWithText(
-
-    val image: Painter, val text: String
-)
-
-
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun Profile(innerPadding: PaddingValues) {
@@ -90,7 +83,6 @@ fun Profile(innerPadding: PaddingValues) {
 
     var username by remember { mutableStateOf("bharath_kandula") }
     var fullName by remember { mutableStateOf("Bharath kandula") }
-    var email by remember { mutableStateOf("bharathkandula321@gmail.com") }
     var imageUri by remember { mutableStateOf("") }
 
     Column(
@@ -102,9 +94,8 @@ fun Profile(innerPadding: PaddingValues) {
             name = username, modifier = Modifier.padding(10.dp)
         )
 
-
         Spacer(modifier = Modifier.height(4.dp))
-        ProfileSection(fullName = fullName, imageUri = imageUri)
+        ProfileSection(fullName = fullName)
         Spacer(modifier = Modifier.height(25.dp))
         ButtonSection(modifier = Modifier.fillMaxWidth())
         Spacer(modifier = Modifier.height(25.dp))
@@ -197,7 +188,7 @@ fun TopBar(
 
 @Composable
 fun ProfileSection(
-    fullName: String, imageUri: String, modifier: Modifier = Modifier
+    fullName: String, modifier: Modifier = Modifier
 ) {
     Column(modifier = modifier.fillMaxWidth()) {
         Row(
@@ -466,3 +457,8 @@ fun PostSection(
         }
     }
 }
+
+data class ImageWithText(
+
+    val image: Painter, val text: String
+)
